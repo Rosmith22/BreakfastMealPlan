@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Payment form</title>
+  </head>
+  <body>
+    <div class="bg-img">
+      <form id="paymentForm" class="container">
+        Name: <input type="text" id="name" /><br /><br />
+        Amount: <input type="number" id="price" /><br /><br />
+         Breakfast Meal Description: <input type="text" id="description" /><br /><br />
+        <input type="checkbox" id="daily" value="daily" />Daily<br />
+        <input type="checkbox" id="weekly" value="weekly" />Weekly<br />
+        <input
+          type="checkbox"
+          id="monthly"
+          value="monthly"
+        />Monthly<br /><br />
+        <input
+          type="button"
+          value="Submit"
+          class="btn"
+          onclick="createForm()"
+        />
+      </form>
+    </div>
+  </body>
+</html>
+<script src="script.js"></script>
